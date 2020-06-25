@@ -11,13 +11,14 @@ public class HelloWorldApplication {
 
 	public static void main(String[] args) {
 
+		//dit stukje is alleen voor what3words
 		What3WordsV3 api = new What3WordsV3("V8UG7ICS");
 
 		ConvertTo3WA words = api.convertTo3wa(new Coordinates(51.508344, -0.12549900))
 				.language("en")
 				.execute();
 		System.out.println("Words: " + words);
-
+		//einde stukje voor what3words
 
 
 		SpringApplication.run(HelloWorldApplication.class, args);
