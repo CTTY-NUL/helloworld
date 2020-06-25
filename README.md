@@ -4,3 +4,6 @@ Ik moet telkens httpd.exe uitgooien, misschien die service ff niet automatisch l
 
 Als ik een CMD met elevated priviliges heb kan ik netstat -b draaien om te zien welk proces welke poort gebruikt.
 
+http://localhost:8080/db
+http://localhost:8080/db/players
+http://localhost:8080/db/players/1
