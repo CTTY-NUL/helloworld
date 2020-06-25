@@ -19,7 +19,7 @@ public class HelloWorldApplication {
 //				.execute();
 //		System.out.println("Words: " + words);
 //		//einde stukje voor what3words
-
+//sd
 
 		SpringApplication.run(HelloWorldApplication.class, args);
 	}
