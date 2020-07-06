@@ -9,16 +9,16 @@ public class Player {
 
     @Id
     @GeneratedValue
-    private int id;
+//    private int id;
     private String name;
     private int score;
 
     //Dennis zegt lege constructor nodig want entity
     public Player() {
     }
-
-    public Player(int id, String name, int score) {
-        this.id = id;
+    public Player(String name, int score) {
+//    public Player(int id, String name, int score) {
+//        this.id = id;
         this.name = name;
         this.score = score;
     }
@@ -35,8 +35,11 @@ public class Player {
         return score;
     }
 
-    public void setScore(int score) {
-        this.score = score;
+//    public void setScore(int score) {
+//        this.score = score;
+//    }
+    public void addScore(){
+        score++;
     }
 
 }

@@ -19,7 +19,9 @@ public class DatabaseLoader implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        Player player = new Player(1,"Dennis",0);
-        playerRepository.save(player);
+        Player player1 = new Player("Dennis",0);
+        playerRepository.save(player1);
+        Player player2 = new Player("Henk",0);
+        playerRepository.save(player2);
     }
 }
